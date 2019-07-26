@@ -16,3 +16,9 @@ Install airodump-ng first. Then:
 chmod +x pyrodump.py
 sudo ./pyrodump.py
 ```
+
+Select your WiFi interface if it's not selected by default. Activate monitor mode with M`Monitor mode -> Start`.
+
+Start Airodump with `Airodump -> Start`.
+
+If a client needs to be deauthenticated, stop airodump, select the client and then select `Client -> Start deauth`. 
